@@ -1,8 +1,8 @@
 {
     "ok":  true,
     "source":  "https://data-api.binance.vision",
-    "generated_unix_ms":  1793606711936,
-    "elapsed_seconds":  8.427,
+    "generated_unix_ms":  1793607312073,
+    "elapsed_seconds":  8.819,
     "capital_usdc":  10.0,
     "universe":  {
                      "spot_usdc_symbols_eligible_by_exchange_rules":  255,
@@ -12,28 +12,28 @@
     "top_candidates":  [
                            {
                                "symbol":  "LINKUSDC",
-                               "score":  55.0,
+                               "score":  49.0,
                                "score_is_probability":  false,
                                "reasons":  [
                                                "spread muy bajo",
                                                "profundidad 1% favorece bids"
                                            ],
                                "market":  {
-                                              "bid":  11.343,
-                                              "ask":  11.345,
-                                              "spread_pct":  0.017630465444293617,
-                                              "quote_volume_24h":  2413865.01862,
-                                              "price_change_pct_24h":  -3.668,
-                                              "range_24h_pct":  5.597672778561352,
+                                              "bid":  11.318,
+                                              "ask":  11.323,
+                                              "spread_pct":  0.04416766043903345,
+                                              "quote_volume_24h":  2426652.62121,
+                                              "price_change_pct_24h":  -3.644,
+                                              "range_24h_pct":  5.60929287575637,
                                               "high_24h":  11.856,
                                               "low_24h":  11.221,
-                                              "position_in_24h_range":  0.19370078740157662
+                                              "position_in_24h_range":  0.1566929133858253
                                           },
                                "execution":  {
                                                  "ok":  true,
                                                  "qty_for_capital":  0.88,
-                                                 "estimated_notional_usdc":  9.9836,
-                                                 "unused_usdc":  0.0164,
+                                                 "estimated_notional_usdc":  9.96424,
+                                                 "unused_usdc":  0.03576,
                                                  "min_qty":  0.01,
                                                  "step_size":  0.01,
                                                  "min_notional":  5.0
@@ -41,29 +41,29 @@
                                "timeframes":  {
                                                   "5m":  {
                                                              "ok":  true,
-                                                             "last_close":  11.345,
-                                                             "rsi14":  68.96551724138011,
-                                                             "atr14_pct":  0.20713970912295981,
-                                                             "volume_ratio":  0.3887981515848247,
+                                                             "last_close":  11.316,
+                                                             "rsi14":  41.26984126984171,
+                                                             "atr14_pct":  0.1988335100742286,
+                                                             "volume_ratio":  0.1909539225124293,
                                                              "trend_up":  false,
                                                              "breakout":  false,
                                                              "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  0.2297022705185947,
-                                                             "momentum_12_bars_pct":  0.061739283824313596,
-                                                             "recent_high_20":  11.346,
+                                                             "momentum_3_bars_pct":  0.0,
+                                                             "momentum_12_bars_pct":  0.008837825894847384,
+                                                             "recent_high_20":  11.354,
                                                              "recent_low_20":  11.251
                                                          },
                                                   "15m":  {
                                                               "ok":  true,
                                                               "last_close":  11.316,
-                                                              "rsi14":  38.507462686567266,
-                                                              "atr14_pct":  0.4102913699944466,
-                                                              "volume_ratio":  2.726499555818906,
+                                                              "rsi14":  40.312500000000156,
+                                                              "atr14_pct":  0.4058728475483516,
+                                                              "volume_ratio":  0.6519452225155054,
                                                               "trend_up":  false,
                                                               "breakout":  false,
                                                               "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.008837825894847384,
-                                                              "momentum_12_bars_pct":  -0.07064641469444188,
+                                                              "momentum_3_bars_pct":  -0.04416570974294931,
+                                                              "momentum_12_bars_pct":  -0.1323801959226767,
                                                               "recent_high_20":  11.402,
                                                               "recent_low_20":  11.251
                                                           },
@@ -83,181 +83,9 @@
                                                          }
                                               },
                                "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  179323.37848,
-                                                 "ask_depth_1pct_usdc":  131761.0085,
-                                                 "imbalance_1pct":  0.1528921796485333
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "ETHUSDC",
-                               "score":  51.0,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "spread muy bajo",
-                                               "volumen 24h muy alto",
-                                               "ruptura confirmada en 5m",
-                                               "retroceso/reclaim en 5m"
-                                           ],
-                               "market":  {
-                                              "bid":  2288.5,
-                                              "ask":  2288.51,
-                                              "spread_pct":  0.00043696649123415844,
-                                              "quote_volume_24h":  91846536.640667,
-                                              "price_change_pct_24h":  0.944,
-                                              "range_24h_pct":  3.078865897168657,
-                                              "high_24h":  2315.97,
-                                              "low_24h":  2245.51,
-                                              "position_in_24h_range":  0.610204371274484
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  0.0043,
-                                                 "estimated_notional_usdc":  9.840593,
-                                                 "unused_usdc":  0.159407,
-                                                 "min_qty":  0.0001,
-                                                 "step_size":  0.0001,
-                                                 "min_notional":  5.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  2287.89,
-                                                             "rsi14":  62.93027360988514,
-                                                             "atr14_pct":  0.1418961825712173,
-                                                             "volume_ratio":  1.8999733109680124,
-                                                             "trend_up":  false,
-                                                             "breakout":  true,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.403300127265549,
-                                                             "momentum_12_bars_pct":  0.12384795147610816,
-                                                             "recent_high_20":  2287.17,
-                                                             "recent_low_20":  2276.48
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  2282.37,
-                                                              "rsi14":  25.99382080329505,
-                                                              "atr14_pct":  0.2569384330448513,
-                                                              "volume_ratio":  0.9570712650546573,
-                                                              "trend_up":  false,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.02717212665717117,
-                                                              "momentum_12_bars_pct":  -0.35929450798917184,
-                                                              "recent_high_20":  2315.97,
-                                                              "recent_low_20":  2277.27
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  2282.37,
-                                                             "rsi14":  60.684491978609685,
-                                                             "atr14_pct":  0.5905202549480153,
-                                                             "volume_ratio":  1.1843837417733003,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  -0.35929450798917184,
-                                                             "momentum_12_bars_pct":  1.1227143635662573,
-                                                             "recent_high_20":  2315.97,
-                                                             "recent_low_20":  2245.51
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  1095507.901226,
-                                                 "ask_depth_1pct_usdc":  1069962.248685,
-                                                 "imbalance_1pct":  0.011796815828678057
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "NEARUSDC",
-                               "score":  44.0,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "spread muy bajo",
-                                               "retroceso/reclaim en 5m"
-                                           ],
-                               "market":  {
-                                              "bid":  4.131,
-                                              "ask":  4.132,
-                                              "spread_pct":  0.024204284158282602,
-                                              "quote_volume_24h":  10240334.9057,
-                                              "price_change_pct_24h":  -5.426,
-                                              "range_24h_pct":  8.495703739561902,
-                                              "high_24h":  4.423,
-                                              "low_24h":  4.072,
-                                              "position_in_24h_range":  0.1695156695156692
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  2.4,
-                                                 "estimated_notional_usdc":  9.9168,
-                                                 "unused_usdc":  0.0832,
-                                                 "min_qty":  0.1,
-                                                 "step_size":  0.1,
-                                                 "min_notional":  5.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  4.133,
-                                                             "rsi14":  58.21917808219179,
-                                                             "atr14_pct":  0.4303342435449888,
-                                                             "volume_ratio":  0.41958156121252166,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  1.0513447432762835,
-                                                             "momentum_12_bars_pct":  0.1696558410082316,
-                                                             "recent_high_20":  4.204,
-                                                             "recent_low_20":  4.072
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  4.106,
-                                                              "rsi14":  13.72549019607844,
-                                                              "atr14_pct":  0.8332753461832845,
-                                                              "volume_ratio":  0.5307689262219498,
-                                                              "trend_up":  false,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  -0.04868549172346581,
-                                                              "momentum_12_bars_pct":  -3.705440900562862,
-                                                              "recent_high_20":  4.333,
-                                                              "recent_low_20":  4.074
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  4.106,
-                                                             "rsi14":  29.004329004329037,
-                                                             "atr14_pct":  1.4856307842182128,
-                                                             "volume_ratio":  1.0406365137310758,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  -3.705440900562862,
-                                                             "momentum_12_bars_pct":  -3.6150234741784026,
-                                                             "recent_high_20":  4.407,
-                                                             "recent_low_20":  4.098
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  181831.6513,
-                                                 "ask_depth_1pct_usdc":  289187.4041,
-                                                 "imbalance_1pct":  -0.22792231348014375
+                                                 "bid_depth_1pct_usdc":  202988.90437,
+                                                 "ask_depth_1pct_usdc":  138998.18738,
+                                                 "imbalance_1pct":  0.18711442195829606
                                              },
                                "cost_assumptions":  {
                                                         "capital_usdc":  10.0,
@@ -276,21 +104,21 @@
                                                "volumen 24h muy alto"
                                            ],
                                "market":  {
-                                              "bid":  94.29,
-                                              "ask":  94.3,
-                                              "spread_pct":  0.010605016172640019,
-                                              "quote_volume_24h":  86157640.14073,
-                                              "price_change_pct_24h":  -1.226,
-                                              "range_24h_pct":  2.9587995121692625,
+                                              "bid":  94.2,
+                                              "ask":  94.21,
+                                              "spread_pct":  0.010615147815923683,
+                                              "quote_volume_24h":  87983357.91854,
+                                              "price_change_pct_24h":  -1.144,
+                                              "range_24h_pct":  2.9616262406454075,
                                               "high_24h":  95.86,
                                               "low_24h":  93.07,
-                                              "position_in_24h_range":  0.43906810035842503
+                                              "position_in_24h_range":  0.4068100358422948
                                           },
                                "execution":  {
                                                  "ok":  true,
                                                  "qty_for_capital":  0.106,
-                                                 "estimated_notional_usdc":  9.9958,
-                                                 "unused_usdc":  0.0042,
+                                                 "estimated_notional_usdc":  9.98626,
+                                                 "unused_usdc":  0.01374,
                                                  "min_qty":  0.001,
                                                  "step_size":  0.001,
                                                  "min_notional":  5.0
@@ -298,29 +126,29 @@
                                "timeframes":  {
                                                   "5m":  {
                                                              "ok":  true,
-                                                             "last_close":  94.29,
-                                                             "rsi14":  50.0,
-                                                             "atr14_pct":  0.17650712846385433,
-                                                             "volume_ratio":  2.2056954548850842,
+                                                             "last_close":  94.16,
+                                                             "rsi14":  40.0,
+                                                             "atr14_pct":  0.17826799368855076,
+                                                             "volume_ratio":  4.193499505047513,
                                                              "trend_up":  false,
                                                              "breakout":  false,
                                                              "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  0.12742911755336817,
-                                                             "momentum_12_bars_pct":  -0.06359300476945773,
+                                                             "momentum_3_bars_pct":  -0.021235931195595636,
+                                                             "momentum_12_bars_pct":  -0.010619093129449197,
                                                              "recent_high_20":  94.51,
                                                              "recent_low_20":  94.03
                                                          },
                                                   "15m":  {
                                                               "ok":  true,
-                                                              "last_close":  94.18,
-                                                              "rsi14":  26.893939393939803,
-                                                              "atr14_pct":  0.35190971695537526,
-                                                              "volume_ratio":  1.689285711832384,
+                                                              "last_close":  94.16,
+                                                              "rsi14":  30.472103004292265,
+                                                              "atr14_pct":  0.34591576647651434,
+                                                              "volume_ratio":  2.258307761096827,
                                                               "trend_up":  false,
                                                               "breakout":  false,
                                                               "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.010619093129449197,
-                                                              "momentum_12_bars_pct":  -0.7273110572362129,
+                                                              "momentum_3_bars_pct":  -0.14846235418876086,
+                                                              "momentum_12_bars_pct":  -0.6226912928759876,
                                                               "recent_high_20":  95.83,
                                                               "recent_low_20":  94.03
                                                           },
@@ -340,521 +168,9 @@
                                                          }
                                               },
                                "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  815485.27652,
-                                                 "ask_depth_1pct_usdc":  1182696.22514,
-                                                 "imbalance_1pct":  -0.18377256936616496
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "BTCUSDC",
-                               "score":  44.0,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "spread muy bajo",
-                                               "volumen 24h muy alto",
-                                               "retroceso/reclaim en 5m"
-                                           ],
-                               "market":  {
-                                              "bid":  78116.18,
-                                              "ask":  78116.19,
-                                              "spread_pct":  1.2801444424498235E-05,
-                                              "quote_volume_24h":  118011865.8124794,
-                                              "price_change_pct_24h":  0.259,
-                                              "range_24h_pct":  1.6221478301839614,
-                                              "high_24h":  78799.62,
-                                              "low_24h":  77532.46,
-                                              "position_in_24h_range":  0.4606561128823482
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  0.00012,
-                                                 "estimated_notional_usdc":  9.3739428,
-                                                 "unused_usdc":  0.6260572,
-                                                 "min_qty":  1E-05,
-                                                 "step_size":  1E-05,
-                                                 "min_notional":  5.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  78111.15,
-                                                             "rsi14":  53.63759347638185,
-                                                             "atr14_pct":  0.1049804395037402,
-                                                             "volume_ratio":  1.847959431495602,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.24724551935675354,
-                                                             "momentum_12_bars_pct":  -0.0067719419881484555,
-                                                             "recent_high_20":  78194.31,
-                                                             "recent_low_20":  77847.94
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  78037.31,
-                                                              "rsi14":  22.680741810008428,
-                                                              "atr14_pct":  0.16829129553543,
-                                                              "volume_ratio":  1.402044521084263,
-                                                              "trend_up":  false,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  -0.028298962072470513,
-                                                              "momentum_12_bars_pct":  -0.3778851707038733,
-                                                              "recent_high_20":  78799.62,
-                                                              "recent_low_20":  77962.42
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  78037.31,
-                                                             "rsi14":  53.260494371680174,
-                                                             "atr14_pct":  0.4105893157296888,
-                                                             "volume_ratio":  1.4224647282809153,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  -0.3778851707038733,
-                                                             "momentum_12_bars_pct":  0.40288625790407817,
-                                                             "recent_high_20":  78799.62,
-                                                             "recent_low_20":  77532.46
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  1847794.4447297,
-                                                 "ask_depth_1pct_usdc":  1748029.2612591,
-                                                 "imbalance_1pct":  0.027744737125027116
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "çæ¥USDC",
-                               "score":  43.5,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "ruptura confirmada en 5m",
-                                               "retroceso/reclaim en 1h"
-                                           ],
-                               "market":  {
-                                              "bid":  0.07128,
-                                              "ask":  0.07149,
-                                              "spread_pct":  0.29417944946417574,
-                                              "quote_volume_24h":  405503.20335,
-                                              "price_change_pct_24h":  7.172,
-                                              "range_24h_pct":  11.17881907963858,
-                                              "high_24h":  0.07371,
-                                              "low_24h":  0.06573,
-                                              "position_in_24h_range":  0.7086466165413542
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  139.0,
-                                                 "estimated_notional_usdc":  9.93711,
-                                                 "unused_usdc":  0.06289,
-                                                 "min_qty":  1.0,
-                                                 "step_size":  1.0,
-                                                 "min_notional":  1.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  0.07143,
-                                                             "rsi14":  93.16037735849059,
-                                                             "atr14_pct":  0.6049879002419951,
-                                                             "volume_ratio":  1.337252947215005,
-                                                             "trend_up":  true,
-                                                             "breakout":  true,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  1.2616954919194567,
-                                                             "momentum_12_bars_pct":  4.766793781167489,
-                                                             "recent_high_20":  0.07102,
-                                                             "recent_low_20":  0.06746
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  0.07069,
-                                                              "rsi14":  40.36585365853659,
-                                                              "atr14_pct":  1.5419436978356196,
-                                                              "volume_ratio":  0.6442538691136372,
-                                                              "trend_up":  true,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  2.86670547147847,
-                                                              "momentum_12_bars_pct":  0.12747875354108817,
-                                                              "recent_high_20":  0.07371,
-                                                              "recent_low_20":  0.06746
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  0.07069,
-                                                             "rsi14":  59.791122715404704,
-                                                             "atr14_pct":  3.277893417941517,
-                                                             "volume_ratio":  0.5140392437080765,
-                                                             "trend_up":  true,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.12747875354108817,
-                                                             "momentum_12_bars_pct":  2.8068644560791167,
-                                                             "recent_high_20":  0.07371,
-                                                             "recent_low_20":  0.06573
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  10895.26132,
-                                                 "ask_depth_1pct_usdc":  8102.17737,
-                                                 "imbalance_1pct":  0.14702423813954676
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "TAOUSDC",
-                               "score":  43.0,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "ruptura confirmada en 5m",
-                                               "retroceso/reclaim en 5m"
-                                           ],
-                               "market":  {
-                                              "bid":  230.4,
-                                              "ask":  230.6,
-                                              "spread_pct":  0.08676789587852,
-                                              "quote_volume_24h":  450928.07461,
-                                              "price_change_pct_24h":  -2.866,
-                                              "range_24h_pct":  3.9045553145336225,
-                                              "high_24h":  238.4,
-                                              "low_24h":  229.4,
-                                              "position_in_24h_range":  0.1222222222222216
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  0.0433,
-                                                 "estimated_notional_usdc":  9.98498,
-                                                 "unused_usdc":  0.01502,
-                                                 "min_qty":  0.0001,
-                                                 "step_size":  0.0001,
-                                                 "min_notional":  5.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  230.5,
-                                                             "rsi14":  63.636363636363754,
-                                                             "atr14_pct":  0.07747133560582409,
-                                                             "volume_ratio":  16.526757147440787,
-                                                             "trend_up":  false,
-                                                             "breakout":  true,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.3482803656943867,
-                                                             "momentum_12_bars_pct":  0.21739130434783593,
-                                                             "recent_high_20":  230.2,
-                                                             "recent_low_20":  229.4
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  230.0,
-                                                              "rsi14":  20.967741935484,
-                                                              "atr14_pct":  0.2919254658385086,
-                                                              "volume_ratio":  1.9583444539633408,
-                                                              "trend_up":  false,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.0,
-                                                              "momentum_12_bars_pct":  -1.1177987962166736,
-                                                              "recent_high_20":  234.3,
-                                                              "recent_low_20":  229.4
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  230.0,
-                                                             "rsi14":  37.423312883435585,
-                                                             "atr14_pct":  0.7888198757763978,
-                                                             "volume_ratio":  0.8290469815296944,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  -1.1177987962166736,
-                                                             "momentum_12_bars_pct":  -0.7765314926660993,
-                                                             "recent_high_20":  237.0,
-                                                             "recent_low_20":  229.5
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  119106.0241,
-                                                 "ask_depth_1pct_usdc":  145533.18965,
-                                                 "imbalance_1pct":  -0.09986110968031091
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "XRPUSDC",
-                               "score":  43.0,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "spread muy bajo",
-                                               "retroceso/reclaim en 5m",
-                                               "profundidad 1% favorece bids"
-                                           ],
-                               "market":  {
-                                              "bid":  1.2507,
-                                              "ask":  1.2508,
-                                              "spread_pct":  0.007995202878272155,
-                                              "quote_volume_24h":  27757335.9698,
-                                              "price_change_pct_24h":  -0.176,
-                                              "range_24h_pct":  1.7749350389766136,
-                                              "high_24h":  1.2632,
-                                              "low_24h":  1.241,
-                                              "position_in_24h_range":  0.43918918918918587
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  7.9,
-                                                 "estimated_notional_usdc":  9.88132,
-                                                 "unused_usdc":  0.11868,
-                                                 "min_qty":  0.1,
-                                                 "step_size":  0.1,
-                                                 "min_notional":  5.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  1.2507,
-                                                             "rsi14":  59.13043478260878,
-                                                             "atr14_pct":  0.137066100126785,
-                                                             "volume_ratio":  0.524914664520443,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.14412683161182382,
-                                                             "momentum_12_bars_pct":  0.08802816901407606,
-                                                             "recent_high_20":  1.2512,
-                                                             "recent_low_20":  1.2456
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  1.2492,
-                                                              "rsi14":  32.812500000000355,
-                                                              "atr14_pct":  0.25845112300443535,
-                                                              "volume_ratio":  0.8317087748863942,
-                                                              "trend_up":  false,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.10417501402355533,
-                                                              "momentum_12_bars_pct":  -0.3032721468475552,
-                                                              "recent_high_20":  1.2632,
-                                                              "recent_low_20":  1.2456
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  1.2492,
-                                                             "rsi14":  50.18450184501843,
-                                                             "atr14_pct":  0.6169662869951047,
-                                                             "volume_ratio":  1.494747885828095,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  -0.3032721468475552,
-                                                             "momentum_12_bars_pct":  0.31317754757889116,
-                                                             "recent_high_20":  1.2632,
-                                                             "recent_low_20":  1.241
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  547618.83102,
-                                                 "ask_depth_1pct_usdc":  403925.87367,
-                                                 "imbalance_1pct":  0.15101020124620756
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "BNBUSDC",
-                               "score":  43.0,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "spread muy bajo",
-                                               "retroceso/reclaim en 5m",
-                                               "profundidad 1% favorece bids"
-                                           ],
-                               "market":  {
-                                              "bid":  708.3,
-                                              "ask":  708.31,
-                                              "spread_pct":  0.0014118211787282182,
-                                              "quote_volume_24h":  11372444.71421,
-                                              "price_change_pct_24h":  0.295,
-                                              "range_24h_pct":  1.8438384594207384,
-                                              "high_24h":  717.1,
-                                              "low_24h":  704.04,
-                                              "position_in_24h_range":  0.3265696784073482
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  0.014,
-                                                 "estimated_notional_usdc":  9.91634,
-                                                 "unused_usdc":  0.08366,
-                                                 "min_qty":  0.001,
-                                                 "step_size":  0.001,
-                                                 "min_notional":  5.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  708.37,
-                                                             "rsi14":  55.14905149051477,
-                                                             "atr14_pct":  0.12846393833730968,
-                                                             "volume_ratio":  0.45309347331889643,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.3356940509914974,
-                                                             "momentum_12_bars_pct":  -0.052205322120946196,
-                                                             "recent_high_20":  709.0,
-                                                             "recent_low_20":  705.42
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  707.16,
-                                                              "rsi14":  23.68640533778101,
-                                                              "atr14_pct":  0.2054495648590352,
-                                                              "volume_ratio":  0.6124047373843688,
-                                                              "trend_up":  false,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  -0.10312336662475774,
-                                                              "momentum_12_bars_pct":  -0.5442808320324066,
-                                                              "recent_high_20":  715.29,
-                                                              "recent_low_20":  705.75
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  707.16,
-                                                             "rsi14":  43.78629500580712,
-                                                             "atr14_pct":  0.45806970336072567,
-                                                             "volume_ratio":  1.14811731274888,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  -0.5442808320324066,
-                                                             "momentum_12_bars_pct":  -0.12851836682814533,
-                                                             "recent_high_20":  717.1,
-                                                             "recent_low_20":  704.04
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  549990.85186,
-                                                 "ask_depth_1pct_usdc":  320146.15899,
-                                                 "imbalance_1pct":  0.26414770318236946
-                                             },
-                               "cost_assumptions":  {
-                                                        "capital_usdc":  10.0,
-                                                        "estimated_round_trip_fee_pct":  0.15,
-                                                        "estimated_extra_slippage_pct":  0.05,
-                                                        "estimated_total_friction_pct":  0.2,
-                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
-                                                    }
-                           },
-                           {
-                               "symbol":  "ENAUSDC",
-                               "score":  42.0,
-                               "score_is_probability":  false,
-                               "reasons":  [
-                                               "retroceso/reclaim en 5m"
-                                           ],
-                               "market":  {
-                                              "bid":  0.1792,
-                                              "ask":  0.1793,
-                                              "spread_pct":  0.05578800557879441,
-                                              "quote_volume_24h":  2150188.882388,
-                                              "price_change_pct_24h":  -4.681,
-                                              "range_24h_pct":  7.419804741980478,
-                                              "high_24h":  0.1902,
-                                              "low_24h":  0.1769,
-                                              "position_in_24h_range":  0.1766917293233075
-                                          },
-                               "execution":  {
-                                                 "ok":  true,
-                                                 "qty_for_capital":  55.77,
-                                                 "estimated_notional_usdc":  9.999561,
-                                                 "unused_usdc":  0.000439,
-                                                 "min_qty":  0.01,
-                                                 "step_size":  0.01,
-                                                 "min_notional":  5.0
-                                             },
-                               "timeframes":  {
-                                                  "5m":  {
-                                                             "ok":  true,
-                                                             "last_close":  0.1793,
-                                                             "rsi14":  61.81818181818183,
-                                                             "atr14_pct":  0.40235837781850153,
-                                                             "volume_ratio":  0.9062295546385071,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  1.0710259301014657,
-                                                             "momentum_12_bars_pct":  0.5044843049327286,
-                                                             "recent_high_20":  0.1795,
-                                                             "recent_low_20":  0.1769
-                                                         },
-                                                  "15m":  {
-                                                              "ok":  true,
-                                                              "last_close":  0.1783,
-                                                              "rsi14":  21.666666666666487,
-                                                              "atr14_pct":  0.8292604759234024,
-                                                              "volume_ratio":  1.3061552247689523,
-                                                              "trend_up":  false,
-                                                              "breakout":  false,
-                                                              "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.39414414414413734,
-                                                              "momentum_12_bars_pct":  -2.833787465940063,
-                                                              "recent_high_20":  0.1862,
-                                                              "recent_low_20":  0.1771
-                                                          },
-                                                  "1h":  {
-                                                             "ok":  true,
-                                                             "last_close":  0.1783,
-                                                             "rsi14":  38.64734299516904,
-                                                             "atr14_pct":  1.5904174345004403,
-                                                             "volume_ratio":  3.609042478322767,
-                                                             "trend_up":  false,
-                                                             "breakout":  false,
-                                                             "pullback_reclaim":  false,
-                                                             "momentum_3_bars_pct":  -2.833787465940063,
-                                                             "momentum_12_bars_pct":  -1.218836565096959,
-                                                             "recent_high_20":  0.1879,
-                                                             "recent_low_20":  0.1771
-                                                         }
-                                              },
-                               "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  95485.97543199999,
-                                                 "ask_depth_1pct_usdc":  111316.299093,
-                                                 "imbalance_1pct":  -0.07654811194586886
+                                                 "bid_depth_1pct_usdc":  916632.13079,
+                                                 "ask_depth_1pct_usdc":  1084745.0991500001,
+                                                 "imbalance_1pct":  -0.08399864145803243
                                              },
                                "cost_assumptions":  {
                                                         "capital_usdc":  10.0,
@@ -866,27 +182,27 @@
                            },
                            {
                                "symbol":  "ONDOUSDC",
-                               "score":  38.0,
+                               "score":  39.0,
                                "score_is_probability":  false,
                                "reasons":  [
-                                               "retroceso/reclaim en 5m"
+                                               "profundidad 1% favorece bids"
                                            ],
                                "market":  {
-                                              "bid":  0.3971,
-                                              "ask":  0.3975,
-                                              "spread_pct":  0.10067958721369531,
-                                              "quote_volume_24h":  553902.42013,
-                                              "price_change_pct_24h":  -3.753,
-                                              "range_24h_pct":  5.1849987415051615,
+                                              "bid":  0.3968,
+                                              "ask":  0.397,
+                                              "spread_pct":  0.0503905265810112,
+                                              "quote_volume_24h":  555907.75273,
+                                              "price_change_pct_24h":  -3.823,
+                                              "range_24h_pct":  5.190224237843287,
                                               "high_24h":  0.4145,
                                               "low_24h":  0.3939,
-                                              "position_in_24h_range":  0.165048543689321
+                                              "position_in_24h_range":  0.14563106796116781
                                           },
                                "execution":  {
                                                  "ok":  true,
                                                  "qty_for_capital":  25.1,
-                                                 "estimated_notional_usdc":  9.97725,
-                                                 "unused_usdc":  0.02275,
+                                                 "estimated_notional_usdc":  9.9647,
+                                                 "unused_usdc":  0.0353,
                                                  "min_qty":  0.1,
                                                  "step_size":  0.1,
                                                  "min_notional":  5.0
@@ -895,28 +211,28 @@
                                                   "5m":  {
                                                              "ok":  true,
                                                              "last_close":  0.3975,
-                                                             "rsi14":  60.869565217391546,
-                                                             "atr14_pct":  0.17789757412398954,
-                                                             "volume_ratio":  0.16314961029737568,
+                                                             "rsi14":  66.66666666666728,
+                                                             "atr14_pct":  0.149146451033243,
+                                                             "volume_ratio":  0.2269306912075626,
                                                              "trend_up":  false,
                                                              "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.4802831142568298,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  0.22692889561271024,
                                                              "momentum_12_bars_pct":  0.5056890012642201,
-                                                             "recent_high_20":  0.3979,
+                                                             "recent_high_20":  0.3978,
                                                              "recent_low_20":  0.3939
                                                          },
                                                   "15m":  {
                                                               "ok":  true,
-                                                              "last_close":  0.3966,
-                                                              "rsi14":  34.078212290502805,
-                                                              "atr14_pct":  0.43944960737699273,
-                                                              "volume_ratio":  0.7768169362429425,
+                                                              "last_close":  0.3975,
+                                                              "rsi14":  39.772727272727295,
+                                                              "atr14_pct":  0.42407906558850167,
+                                                              "volume_ratio":  0.26702156291732626,
                                                               "trend_up":  false,
                                                               "breakout":  false,
                                                               "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.2781289506953222,
-                                                              "momentum_12_bars_pct":  -0.8747813046738329,
+                                                              "momentum_3_bars_pct":  0.3281171125694149,
+                                                              "momentum_12_bars_pct":  -0.25094102885822034,
                                                               "recent_high_20":  0.4053,
                                                               "recent_low_20":  0.3939
                                                           },
@@ -936,9 +252,684 @@
                                                          }
                                               },
                                "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  71861.5244,
-                                                 "ask_depth_1pct_usdc":  60208.59308,
-                                                 "imbalance_1pct":  0.08823291401830285
+                                                 "bid_depth_1pct_usdc":  125012.41893,
+                                                 "ask_depth_1pct_usdc":  60728.1978,
+                                                 "imbalance_1pct":  0.3460967356614634
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "NEARUSDC",
+                               "score":  38.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+                                               "spread muy bajo"
+                                           ],
+                               "market":  {
+                                              "bid":  4.086,
+                                              "ask":  4.087,
+                                              "spread_pct":  0.024470818548866898,
+                                              "quote_volume_24h":  10127791.3662,
+                                              "price_change_pct_24h":  -6.415,
+                                              "range_24h_pct":  8.589257310657041,
+                                              "high_24h":  4.423,
+                                              "low_24h":  4.072,
+                                              "position_in_24h_range":  0.04131054131054119
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  2.4,
+                                                 "estimated_notional_usdc":  9.8088,
+                                                 "unused_usdc":  0.1912,
+                                                 "min_qty":  0.1,
+                                                 "step_size":  0.1,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  4.086,
+                                                             "rsi14":  38.636363636363576,
+                                                             "atr14_pct":  0.48772813089993994,
+                                                             "volume_ratio":  1.4788075444414908,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.4870920603994078,
+                                                             "momentum_12_bars_pct":  -0.5355404089581128,
+                                                             "recent_high_20":  4.17,
+                                                             "recent_low_20":  4.072
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  4.086,
+                                                              "rsi14":  13.671875000000043,
+                                                              "atr14_pct":  0.8880497867282008,
+                                                              "volume_ratio":  1.4183309290114279,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  0.0,
+                                                              "momentum_12_bars_pct":  -4.03945514325974,
+                                                              "recent_high_20":  4.333,
+                                                              "recent_low_20":  4.072
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  4.106,
+                                                             "rsi14":  29.004329004329037,
+                                                             "atr14_pct":  1.4856307842182128,
+                                                             "volume_ratio":  1.0406365137310758,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -3.705440900562862,
+                                                             "momentum_12_bars_pct":  -3.6150234741784026,
+                                                             "recent_high_20":  4.407,
+                                                             "recent_low_20":  4.098
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  162622.9282,
+                                                 "ask_depth_1pct_usdc":  182309.1763,
+                                                 "imbalance_1pct":  -0.05707282054402099
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "ARBUSDC",
+                               "score":  38.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+
+                                           ],
+                               "market":  {
+                                              "bid":  0.1602,
+                                              "ask":  0.1603,
+                                              "spread_pct":  0.06240249609983712,
+                                              "quote_volume_24h":  687147.00933,
+                                              "price_change_pct_24h":  -2.257,
+                                              "range_24h_pct":  4.180967238689537,
+                                              "high_24h":  0.1667,
+                                              "low_24h":  0.16,
+                                              "position_in_24h_range":  0.03731343283582102
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  62.3,
+                                                 "estimated_notional_usdc":  9.98669,
+                                                 "unused_usdc":  0.01331,
+                                                 "min_qty":  0.1,
+                                                 "step_size":  0.1,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  0.1602,
+                                                             "rsi14":  26.31578947368513,
+                                                             "atr14_pct":  0.12038523274478367,
+                                                             "volume_ratio":  0.6650365096944942,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.18691588785046953,
+                                                             "momentum_12_bars_pct":  -0.4968944099378869,
+                                                             "recent_high_20":  0.1613,
+                                                             "recent_low_20":  0.16
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  0.1602,
+                                                              "rsi14":  29.411764705882547,
+                                                              "atr14_pct":  0.4057428214731608,
+                                                              "volume_ratio":  6.705532926682009,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  -0.43505282784336297,
+                                                              "momentum_12_bars_pct":  -1.4760147601475926,
+                                                              "recent_high_20":  0.1637,
+                                                              "recent_low_20":  0.16
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  0.1605,
+                                                             "rsi14":  33.33333333333333,
+                                                             "atr14_pct":  0.9701824655095689,
+                                                             "volume_ratio":  2.4326470792105597,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -1.4127764127764064,
+                                                             "momentum_12_bars_pct":  -1.1699507389162478,
+                                                             "recent_high_20":  0.1667,
+                                                             "recent_low_20":  0.16
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  85098.00359000001,
+                                                 "ask_depth_1pct_usdc":  63282.29434,
+                                                 "imbalance_1pct":  0.1470256466279088
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "LTCUSDC",
+                               "score":  38.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+
+                                           ],
+                               "market":  {
+                                              "bid":  54.92,
+                                              "ask":  54.95,
+                                              "spread_pct":  0.054609993628836145,
+                                              "quote_volume_24h":  727448.0949,
+                                              "price_change_pct_24h":  -2.278,
+                                              "range_24h_pct":  2.6758896878128673,
+                                              "high_24h":  56.31,
+                                              "low_24h":  54.84,
+                                              "position_in_24h_range":  0.06462585034013534
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  0.181,
+                                                 "estimated_notional_usdc":  9.94595,
+                                                 "unused_usdc":  0.05405,
+                                                 "min_qty":  0.001,
+                                                 "step_size":  0.001,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  54.92,
+                                                             "rsi14":  33.33333333333333,
+                                                             "atr14_pct":  0.16517531994589296,
+                                                             "volume_ratio":  0.3050104339980181,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.1636066169787287,
+                                                             "momentum_12_bars_pct":  -0.3085859502632071,
+                                                             "recent_high_20":  55.23,
+                                                             "recent_low_20":  54.84
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  54.92,
+                                                              "rsi14":  18.300653594771305,
+                                                              "atr14_pct":  0.3043387784829841,
+                                                              "volume_ratio":  1.7184290065589019,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  -0.23614895549499693,
+                                                              "momentum_12_bars_pct":  -1.3117699910152658,
+                                                              "recent_high_20":  56.17,
+                                                              "recent_low_20":  54.84
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  55.01,
+                                                             "rsi14":  42.49999999999995,
+                                                             "atr14_pct":  0.6388448853455228,
+                                                             "volume_ratio":  1.8427452677914724,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -1.5216612960973874,
+                                                             "momentum_12_bars_pct":  -0.29001268805510794,
+                                                             "recent_high_20":  56.17,
+                                                             "recent_low_20":  54.95
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  145055.05957,
+                                                 "ask_depth_1pct_usdc":  114313.4351,
+                                                 "imbalance_1pct":  0.11852489836559843
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "XRPUSDC",
+                               "score":  37.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+                                               "spread muy bajo",
+                                               "profundidad 1% favorece bids"
+                                           ],
+                               "market":  {
+                                              "bid":  1.2493,
+                                              "ask":  1.2494,
+                                              "spread_pct":  0.008004162164324567,
+                                              "quote_volume_24h":  27081133.37482,
+                                              "price_change_pct_24h":  -0.144,
+                                              "range_24h_pct":  1.7769240004802493,
+                                              "high_24h":  1.2632,
+                                              "low_24h":  1.241,
+                                              "position_in_24h_range":  0.3761261261261298
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  8.0,
+                                                 "estimated_notional_usdc":  9.9952,
+                                                 "unused_usdc":  0.0048,
+                                                 "min_qty":  0.1,
+                                                 "step_size":  0.1,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  1.2492,
+                                                             "rsi14":  48.36065573770504,
+                                                             "atr14_pct":  0.14066145190064472,
+                                                             "volume_ratio":  0.4931458778950099,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  0.0,
+                                                             "momentum_12_bars_pct":  0.10417501402355533,
+                                                             "recent_high_20":  1.2525,
+                                                             "recent_low_20":  1.2456
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  1.2492,
+                                                              "rsi14":  37.66816143497805,
+                                                              "atr14_pct":  0.25787932848451406,
+                                                              "volume_ratio":  0.5670649796688275,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  -0.056004480358418096,
+                                                              "momentum_12_bars_pct":  -0.23957834211786322,
+                                                              "recent_high_20":  1.2632,
+                                                              "recent_low_20":  1.2456
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  1.2492,
+                                                             "rsi14":  50.18450184501843,
+                                                             "atr14_pct":  0.6169662869951047,
+                                                             "volume_ratio":  1.494747885828095,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.3032721468475552,
+                                                             "momentum_12_bars_pct":  0.31317754757889116,
+                                                             "recent_high_20":  1.2632,
+                                                             "recent_low_20":  1.241
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  558137.73341,
+                                                 "ask_depth_1pct_usdc":  406761.6767,
+                                                 "imbalance_1pct":  0.15688273318847076
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "ENAUSDC",
+                               "score":  36.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+
+                                           ],
+                               "market":  {
+                                              "bid":  0.1788,
+                                              "ask":  0.1789,
+                                              "spread_pct":  0.0559127760693412,
+                                              "quote_volume_24h":  2159821.490981,
+                                              "price_change_pct_24h":  -4.848,
+                                              "range_24h_pct":  7.436399217221139,
+                                              "high_24h":  0.1902,
+                                              "low_24h":  0.1769,
+                                              "position_in_24h_range":  0.14661654135338395
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  55.89,
+                                                 "estimated_notional_usdc":  9.998721,
+                                                 "unused_usdc":  0.001279,
+                                                 "min_qty":  0.01,
+                                                 "step_size":  0.01,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  0.1786,
+                                                             "rsi14":  51.72413793103455,
+                                                             "atr14_pct":  0.41193409054551394,
+                                                             "volume_ratio":  0.11299491017639363,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  0.16825574873808868,
+                                                             "momentum_12_bars_pct":  0.5630630630630629,
+                                                             "recent_high_20":  0.1795,
+                                                             "recent_low_20":  0.1769
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  0.1786,
+                                                              "rsi14":  26.60550458715592,
+                                                              "atr14_pct":  0.8118701007838729,
+                                                              "volume_ratio":  1.0752740912260048,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  0.16825574873808868,
+                                                              "momentum_12_bars_pct":  -1.9758507135016368,
+                                                              "recent_high_20":  0.1862,
+                                                              "recent_low_20":  0.1769
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  0.1783,
+                                                             "rsi14":  38.64734299516904,
+                                                             "atr14_pct":  1.5904174345004403,
+                                                             "volume_ratio":  3.609042478322767,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -2.833787465940063,
+                                                             "momentum_12_bars_pct":  -1.218836565096959,
+                                                             "recent_high_20":  0.1879,
+                                                             "recent_low_20":  0.1771
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  136803.942869,
+                                                 "ask_depth_1pct_usdc":  126273.570416,
+                                                 "imbalance_1pct":  0.040027641745237694
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "ETHUSDC",
+                               "score":  34.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+                                               "spread muy bajo",
+                                               "volumen 24h muy alto"
+                                           ],
+                               "market":  {
+                                              "bid":  2287.2,
+                                              "ask":  2287.21,
+                                              "spread_pct":  0.0004372148539469912,
+                                              "quote_volume_24h":  92801275.449413,
+                                              "price_change_pct_24h":  0.937,
+                                              "range_24h_pct":  3.080615860843238,
+                                              "high_24h":  2315.97,
+                                              "low_24h":  2245.51,
+                                              "position_in_24h_range":  0.5917541867726364
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  0.0043,
+                                                 "estimated_notional_usdc":  9.835003,
+                                                 "unused_usdc":  0.164997,
+                                                 "min_qty":  0.0001,
+                                                 "step_size":  0.0001,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  2286.57,
+                                                             "rsi14":  53.20594479830205,
+                                                             "atr14_pct":  0.14544554882266217,
+                                                             "volume_ratio":  1.2252238270882374,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  0.1840192431551424,
+                                                             "momentum_12_bars_pct":  0.21124137175414504,
+                                                             "recent_high_20":  2291.26,
+                                                             "recent_low_20":  2276.48
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  2286.57,
+                                                              "rsi14":  35.57529610829096,
+                                                              "atr14_pct":  0.2659004535177182,
+                                                              "volume_ratio":  1.456509017085108,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  0.22485798443088179,
+                                                              "momentum_12_bars_pct":  -0.12623063953944857,
+                                                              "recent_high_20":  2315.97,
+                                                              "recent_low_20":  2276.48
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  2282.37,
+                                                             "rsi14":  60.684491978609685,
+                                                             "atr14_pct":  0.5905202549480153,
+                                                             "volume_ratio":  1.1843837417733003,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.35929450798917184,
+                                                             "momentum_12_bars_pct":  1.1227143635662573,
+                                                             "recent_high_20":  2315.97,
+                                                             "recent_low_20":  2245.51
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  1443567.525048,
+                                                 "ask_depth_1pct_usdc":  1351751.05262,
+                                                 "imbalance_1pct":  0.03284651458389338
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "BTCUSDC",
+                               "score":  34.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+                                               "spread muy bajo",
+                                               "volumen 24h muy alto"
+                                           ],
+                               "market":  {
+                                              "bid":  78079.42,
+                                              "ask":  78079.43,
+                                              "spread_pct":  1.2807471359786924E-05,
+                                              "quote_volume_24h":  118636899.3341213,
+                                              "price_change_pct_24h":  0.271,
+                                              "range_24h_pct":  1.6229115416769389,
+                                              "high_24h":  78799.62,
+                                              "low_24h":  77532.46,
+                                              "position_in_24h_range":  0.4316463587865674
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  0.00012,
+                                                 "estimated_notional_usdc":  9.3695316,
+                                                 "unused_usdc":  0.6304684,
+                                                 "min_qty":  1E-05,
+                                                 "step_size":  1E-05,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  78064.15,
+                                                             "rsi14":  45.140244242457456,
+                                                             "atr14_pct":  0.10310201838579222,
+                                                             "volume_ratio":  0.5814259747876519,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  0.034393804707000264,
+                                                             "momentum_12_bars_pct":  0.006085109544784473,
+                                                             "recent_high_20":  78186.46,
+                                                             "recent_low_20":  77847.94
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  78064.15,
+                                                              "rsi14":  29.108128057248422,
+                                                              "atr14_pct":  0.17160703271421104,
+                                                              "volume_ratio":  1.2551913518849924,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  0.03211211201974429,
+                                                              "momentum_12_bars_pct":  -0.23715100833588965,
+                                                              "recent_high_20":  78799.62,
+                                                              "recent_low_20":  77847.94
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  78037.31,
+                                                             "rsi14":  53.260494371680174,
+                                                             "atr14_pct":  0.4105893157296888,
+                                                             "volume_ratio":  1.4224647282809153,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.3778851707038733,
+                                                             "momentum_12_bars_pct":  0.40288625790407817,
+                                                             "recent_high_20":  78799.62,
+                                                             "recent_low_20":  77532.46
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  1613323.0695991,
+                                                 "ask_depth_1pct_usdc":  2069136.8623979,
+                                                 "imbalance_1pct":  -0.12377970194277499
+                                             },
+                               "cost_assumptions":  {
+                                                        "capital_usdc":  10.0,
+                                                        "estimated_round_trip_fee_pct":  0.15,
+                                                        "estimated_extra_slippage_pct":  0.05,
+                                                        "estimated_total_friction_pct":  0.2,
+                                                        "note":  "Public data cannot verify the user\u0027s personalized Binance fee tier."
+                                                    }
+                           },
+                           {
+                               "symbol":  "SUIUSDC",
+                               "score":  34.0,
+                               "score_is_probability":  false,
+                               "reasons":  [
+                                               "spread muy bajo"
+                                           ],
+                               "market":  {
+                                              "bid":  0.8899,
+                                              "ask":  0.89,
+                                              "spread_pct":  0.011236586325073204,
+                                              "quote_volume_24h":  2523112.64027,
+                                              "price_change_pct_24h":  -1.625,
+                                              "range_24h_pct":  2.595651441092197,
+                                              "high_24h":  0.9083,
+                                              "low_24h":  0.8852,
+                                              "position_in_24h_range":  0.20562770562770694
+                                          },
+                               "execution":  {
+                                                 "ok":  true,
+                                                 "qty_for_capital":  11.2,
+                                                 "estimated_notional_usdc":  9.968,
+                                                 "unused_usdc":  0.032,
+                                                 "min_qty":  0.1,
+                                                 "step_size":  0.1,
+                                                 "min_notional":  5.0
+                                             },
+                               "timeframes":  {
+                                                  "5m":  {
+                                                             "ok":  true,
+                                                             "last_close":  0.8899,
+                                                             "rsi14":  43.80165289256238,
+                                                             "atr14_pct":  0.1822034578524067,
+                                                             "volume_ratio":  0.47797464361800457,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.17947279865394572,
+                                                             "momentum_12_bars_pct":  -0.19066846119335512,
+                                                             "recent_high_20":  0.8938,
+                                                             "recent_low_20":  0.8875
+                                                         },
+                                                  "15m":  {
+                                                              "ok":  true,
+                                                              "last_close":  0.8899,
+                                                              "rsi14":  31.506849315068422,
+                                                              "atr14_pct":  0.3563803316584528,
+                                                              "volume_ratio":  0.9106243976106373,
+                                                              "trend_up":  false,
+                                                              "breakout":  false,
+                                                              "pullback_reclaim":  false,
+                                                              "momentum_3_bars_pct":  -0.15707393694602834,
+                                                              "momentum_12_bars_pct":  -0.6918870661756449,
+                                                              "recent_high_20":  0.9073,
+                                                              "recent_low_20":  0.8875
+                                                          },
+                                                  "1h":  {
+                                                             "ok":  true,
+                                                             "last_close":  0.8915,
+                                                             "rsi14":  44.112149532710184,
+                                                             "atr14_pct":  0.8701225863312246,
+                                                             "volume_ratio":  0.9572780536207934,
+                                                             "trend_up":  false,
+                                                             "breakout":  false,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.7790762381747363,
+                                                             "momentum_12_bars_pct":  0.08981699786683173,
+                                                             "recent_high_20":  0.9079,
+                                                             "recent_low_20":  0.8852
+                                                         }
+                                              },
+                               "orderbook":  {
+                                                 "bid_depth_1pct_usdc":  192002.48264,
+                                                 "ask_depth_1pct_usdc":  209064.83328,
+                                                 "imbalance_1pct":  -0.04254236125140494
                                              },
                                "cost_assumptions":  {
                                                         "capital_usdc":  10.0,
@@ -950,28 +941,27 @@
                            },
                            {
                                "symbol":  "AVAXUSDC",
-                               "score":  36.0,
+                               "score":  34.0,
                                "score_is_probability":  false,
                                "reasons":  [
-                                               "spread muy bajo",
-                                               "retroceso/reclaim en 5m"
+                                               "spread muy bajo"
                                            ],
                                "market":  {
-                                              "bid":  8.58,
-                                              "ask":  8.583,
-                                              "spread_pct":  0.03495892326516476,
-                                              "quote_volume_24h":  856510.13843,
-                                              "price_change_pct_24h":  -3.061,
-                                              "range_24h_pct":  4.113499970867561,
+                                              "bid":  8.554,
+                                              "ask":  8.558,
+                                              "spread_pct":  0.046750818139312283,
+                                              "quote_volume_24h":  859546.55018,
+                                              "price_change_pct_24h":  -3.213,
+                                              "range_24h_pct":  4.12575970079476,
                                               "high_24h":  8.878,
                                               "low_24h":  8.525,
-                                              "position_in_24h_range":  0.1600566572237955
+                                              "position_in_24h_range":  0.08781869688385441
                                           },
                                "execution":  {
                                                  "ok":  true,
                                                  "qty_for_capital":  1.16,
-                                                 "estimated_notional_usdc":  9.95628,
-                                                 "unused_usdc":  0.04372,
+                                                 "estimated_notional_usdc":  9.92728,
+                                                 "unused_usdc":  0.07272,
                                                  "min_qty":  0.01,
                                                  "step_size":  0.01,
                                                  "min_notional":  5.0
@@ -979,29 +969,29 @@
                                "timeframes":  {
                                                   "5m":  {
                                                              "ok":  true,
-                                                             "last_close":  8.581,
-                                                             "rsi14":  58.33333333333367,
-                                                             "atr14_pct":  0.164815955516336,
-                                                             "volume_ratio":  0.7939475385021292,
+                                                             "last_close":  8.549,
+                                                             "rsi14":  41.00719424460403,
+                                                             "atr14_pct":  0.16041976505188293,
+                                                             "volume_ratio":  3.6744546339786823,
                                                              "trend_up":  false,
                                                              "breakout":  false,
-                                                             "pullback_reclaim":  true,
-                                                             "momentum_3_bars_pct":  0.4212990052662402,
-                                                             "momentum_12_bars_pct":  0.08164217401445129,
-                                                             "recent_high_20":  8.6,
+                                                             "pullback_reclaim":  false,
+                                                             "momentum_3_bars_pct":  -0.22175536881419156,
+                                                             "momentum_12_bars_pct":  -0.17515179822513716,
+                                                             "recent_high_20":  8.588,
                                                              "recent_low_20":  8.525
                                                          },
                                                   "15m":  {
                                                               "ok":  true,
-                                                              "last_close":  8.568,
-                                                              "rsi14":  33.01886792452811,
-                                                              "atr14_pct":  0.3851540616246482,
-                                                              "volume_ratio":  0.6465978419042717,
+                                                              "last_close":  8.549,
+                                                              "rsi14":  32.40740740740719,
+                                                              "atr14_pct":  0.38350350082716267,
+                                                              "volume_ratio":  0.9055317265363823,
                                                               "trend_up":  false,
                                                               "breakout":  false,
                                                               "pullback_reclaim":  false,
-                                                              "momentum_3_bars_pct":  0.04670714619336991,
-                                                              "momentum_12_bars_pct":  -0.8333333333333415,
+                                                              "momentum_3_bars_pct":  -0.035079513564084674,
+                                                              "momentum_12_bars_pct":  -0.869666048237494,
                                                               "recent_high_20":  8.712,
                                                               "recent_low_20":  8.525
                                                           },
@@ -1021,9 +1011,9 @@
                                                          }
                                               },
                                "orderbook":  {
-                                                 "bid_depth_1pct_usdc":  178184.57791000002,
-                                                 "ask_depth_1pct_usdc":  172326.0363,
-                                                 "imbalance_1pct":  0.016714305851206007
+                                                 "bid_depth_1pct_usdc":  180199.67016,
+                                                 "ask_depth_1pct_usdc":  192859.90424,
+                                                 "imbalance_1pct":  -0.03393622613857781
                                              },
                                "cost_assumptions":  {
                                                         "capital_usdc":  10.0,
@@ -1041,6 +1031,6 @@
                       "warning":  "Heuristic scores are not win probabilities."
                   },
     "note":  "Top candidates are scanner preselection only; ChatGPT should still validate news/context and build the final entry/SL/TP plan.",
-    "published_at_utc":  "2026-11-02T08:05:11.9564174Z",
+    "published_at_utc":  "2026-11-02T08:15:12.0812954Z",
     "publisher":  "local-binance-spot-scanner"
 }
